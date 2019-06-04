@@ -9,6 +9,7 @@ import scrapy
 
 
 class DoubaiItem(scrapy.Item):
+    collection = table = 'doubai'
     title = scrapy.Field()
     rate = scrapy.Field()
     movie_url = scrapy.Field()
